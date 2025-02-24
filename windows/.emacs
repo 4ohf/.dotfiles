@@ -49,7 +49,7 @@
  '(org-level-3 ((t (:inherit outline-1 :height 1.1)))))
 (custom-theme-set-faces
   'user
-  '(org-verbatim ((t (:inherit (font-lock-keyword-face fixed-pitch))))))
+  '(org-verbatim ((t (:inherit default :foreground "#ffdd33")))))
 (mapc (lambda (f) (add-hook 'org-mode-hook f))
       '(turn-on-auto-fill
         org-indent-mode
